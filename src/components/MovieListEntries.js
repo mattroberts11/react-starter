@@ -1,9 +1,9 @@
 import React from 'react';
 
 const MovieListEntries = (props) => {
-  // console.log('MovieListEntries.props = ', props);
+  console.log('MovieListEntries = ', props);
  return (
-    <li class="list-group-item" >{props.movieTitle}</li>
+    <li className="list-group-item" >{props.movieTitle}</li>
   );
 }
 

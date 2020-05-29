@@ -5,7 +5,7 @@ const MovieList = (props) => {
   // functional methods don't have a rendor method or any of the lifecycle methods
   // console.log('MovieList.props = ', props);
     return (
-      <ul class="list-group">
+      <ul className="list-group">
         {
           props.movieData.map((movie, index) =>
             <MovieListEntries movieTitle={movie.title} key={index} />
