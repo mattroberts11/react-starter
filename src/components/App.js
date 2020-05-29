@@ -66,7 +66,7 @@ class App extends React.Component {
       newList = this.state.movies;
     }
     this.setState({
-      filtered: newList
+      movies: newList
     });
   }
 
